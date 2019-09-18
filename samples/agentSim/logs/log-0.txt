@@ -1,0 +1,51 @@
+1554877111137|INFO|org.arl.fjage.shell.GroovyBoot@1:main|fjage Build: fjage-1.4/20-03-2016_16:16:39
+1554877111620|INFO|org.arl.fjage.shell.GroovyBoot@1:main|Running cls://org.arl.unet.sim.initrc
+1554877111623|INFO|org.arl.fjage.shell.GroovyScriptEngine@12:call|RUN: org.arl.unet.sim.initrc
+1554877111745|INFO|org.arl.fjage.shell.GroovyBoot@1:main|Running ping-sim.groovy
+1554877111746|INFO|org.arl.fjage.shell.GroovyScriptEngine@12:call|RUN: /home/yasha/dcomm_project/agentSim/ping-sim.groovy
+1554877112205|INFO|Script1@12:call|Starting console shell
+1554877112282|INFO|Script1@12:invoke|Created static node 1 (1) @ [0, 0, 0]
+1554877112284|INFO|Script1@12:invoke|Starting TCP shell on port 1102
+1554877112301|INFO|Script1@12:invoke|Created static node 2 (2) @ [0, 0, 0]
+1554877112320|INFO|Script1@12:invoke| --- BEGIN SIMULATION #1 ---
+1554877112326|INFO|org.arl.unet.sim.SimulationContainer@12:init|Initializing agents...
+1554877112328|INFO|org.arl.fjage.shell.ShellAgent@19:init|Agent shell init
+1554877112328|INFO|LossModel@21:init|Loading agent dae1 on 1
+1554877112328|INFO|org.arl.unet.nodeinfo.NodeInfo@22:init|Loading agent node v1.3/17-02-2016_02:36:21 on 1
+1554877112328|INFO|org.arl.unet.sim.HalfDuplexModem@20:init|Loading agent phy v1.3/17-02-2016_02:36:21 on 1
+1554877112329|INFO|<1>@23:invoke|Loading simulator : SimulationAgent
+1554877112429|INFO|org.arl.unet.sim.SimulationContainer@12:init|Agents ready...
+1554877112429|INFO|org.arl.unet.sim.SimulationContainer@12:init|Initializing agents...
+1554877112430|INFO|org.arl.fjage.shell.ShellAgent@24:init|Agent shell init
+1554877112430|INFO|LossModel@26:init|Loading agent dae2 on 2
+1554877112430|INFO|<2>@28:invoke|Loading simulator : SimulationAgent
+1554877112430|INFO|org.arl.unet.sim.HalfDuplexModem@25:init|Loading agent phy v1.3/17-02-2016_02:36:21 on 2
+1554877112430|INFO|org.arl.unet.nodeinfo.NodeInfo@27:init|Loading agent node v1.3/17-02-2016_02:36:21 on 2
+1554877112530|INFO|org.arl.unet.sim.SimulationContainer@12:init|Agents ready...
+1554877112530|INFO|org.arl.unet.sim.SimulationContainer@12:start|Starting container...
+1554877112531|INFO|org.arl.unet.sim.SimulationContainer@12:start|Starting container...
+1554877112531|INFO|org.arl.unet.nodeinfo.NodeInfo@22:startup|Node name is 1, address is 1
+1554877112531|INFO|org.arl.unet.nodeinfo.NodeInfo@27:startup|Node name is 2, address is 2
+1554877112531|INFO|org.arl.fjage.shell.GroovyScriptEngine@29:call|RUN: org.arl.fjage.shell.fshrc
+1554877112532|INFO|org.arl.fjage.shell.GroovyScriptEngine@30:call|RUN: org.arl.fjage.shell.fshrc
+1554877112552|INFO|org.arl.fjage.shell.GroovyScriptEngine@29:call|RUN: res://org/arl/unet/shell/fshrc.groovy
+1554877112552|INFO|org.arl.fjage.shell.GroovyScriptEngine@30:call|RUN: res://org/arl/unet/shell/fshrc.groovy
+1554877112802|INFO|Script1@29:call|cls://org.arl.unet.shell/fshrc_jlink not found, skipping it!
+1554877112802|INFO|Script1@30:call|cls://org.arl.unet.shell/fshrc_jlink not found, skipping it!
+1554877112816|INFO|org.arl.fjage.shell.GroovyScriptEngine@29:call|RUN: /home/yasha/dcomm_project/agentSim/fshrc.groovy
+1554877112816|INFO|org.arl.fjage.shell.GroovyScriptEngine@30:call|RUN: /home/yasha/dcomm_project/agentSim/fshrc.1.groovy
+1554877112895|INFO|org.arl.fjage.shell.TcpShell@17:run|Listening on port 1102
+1554877127200|INFO|org.arl.fjage.shell.TcpShell@17:run|Listening on port 1102
+1554877127200|INFO|org.arl.fjage.shell.TcpShell@35:run|New connection from /127.0.0.1
+1554877154035|INFO|org.arl.fjage.shell.ConsoleShell@15:run|> sendString "5"
+1554877154037|INFO|org.arl.fjage.shell.GroovyScriptEngine@29:call|EVAL: sendString "5"
+1554877154090|INFO|org.arl.fjage.shell.ShellAgent@29:send|phy < TxFrameReq:REQUEST[type:DATA to:2 protocol:0 (1 bytes)]
+1554877154096|INFO|org.arl.fjage.shell.ShellAgent@19:onReceive|phy > AGREE
+1554877154147|INFO|org.arl.fjage.shell.ShellAgent@19:onReceive|phy > TxFrameNtf:INFORM[txTime:594967204 type:DATA]
+1554877154704|INFO|org.arl.fjage.shell.ShellAgent@24:onReceive|phy > RxFrameNtf:INFORM[type:DATA from:1 to:2 protocol:0 rxTime:1624374784 (1 bytes)]
+1554877255843|INFO|org.arl.fjage.shell.ConsoleShell@15:run|> sendString "6.7"
+1554877255843|INFO|org.arl.fjage.shell.GroovyScriptEngine@29:call|EVAL: sendString "6.7"
+1554877255882|INFO|org.arl.fjage.shell.ShellAgent@29:send|phy < TxFrameReq:REQUEST[type:DATA to:2 protocol:0 (3 bytes)]
+1554877255883|INFO|org.arl.fjage.shell.ShellAgent@19:onReceive|phy > AGREE
+1554877255935|INFO|org.arl.fjage.shell.ShellAgent@19:onReceive|phy > TxFrameNtf:INFORM[txTime:696756204 type:DATA]
+1554877256482|INFO|org.arl.fjage.shell.ShellAgent@24:onReceive|phy > RxFrameNtf:INFORM[type:DATA from:1 to:2 protocol:0 rxTime:1726163784 (3 bytes)]
