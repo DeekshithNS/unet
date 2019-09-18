@@ -42,9 +42,9 @@ File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/ab.txt")
 
 
 
-       double vvv=(Math.log(v)*10)/(Math.log10);
+       double vvv=(Math.log(v)*10)/(Math.log(10));
         
-        println ("after log "+vvv);
+        println("after log "+vvv+" ");
        return v;
       }
 

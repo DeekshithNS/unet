@@ -1,0 +1,162 @@
+,15.000000000064176,,15.000000000064176,trial number 1.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:100.0
+
+,15.000000000064176,,15.000000000064176,trial number 2.0
+sent data 0
+bit is not corrupted(no errors)
+recieved data:0
+rate error:50.0
+
+,15.000000000064176,,15.000000000064176,trial number 3.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:66.666664
+
+,15.000000000256648,,15.000000000256648,trial number 4.0
+sent data 0
+bit is not corrupted(no errors)
+recieved data:0
+rate error:50.0
+
+,15.000000000256648,,15.000000000256648,trial number 5.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:60.0
+
+,15.000000000256648,,15.000000000256648,trial number 6.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:66.666664
+
+,15.000000000577472,,15.000000000577472,trial number 7.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:57.142857
+
+,15.000000000577472,,15.000000000577472,trial number 8.0
+sent data 0
+bit is not corrupted(no errors)
+recieved data:0
+rate error:50.0
+
+,15.000000000577472,,15.000000000577472,trial number 9.0
+sent data 0
+bit is not corrupted(no errors)
+recieved data:0
+rate error:44.444443
+
+,15.000000001026649,,15.000000001026649,trial number 10.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:40.0
+
+,15.000000001026649,,15.000000001026649,trial number 11.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:45.454544
+
+,15.000000001026649,,15.000000001026649,trial number 12.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:50.0
+
+,15.000000001604121,,15.000000001604121,trial number 13.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:46.153847
+
+,15.000000001604121,,15.000000001604121,trial number 14.0
+sent data 0
+bit is not corrupted(no errors)
+recieved data:0
+rate error:42.857143
+
+,15.000000001604121,,15.000000001604121,trial number 15.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:46.666668
+
+,15.000000002309918,,15.000000002309918,trial number 16.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:50.0
+
+,15.000000002309918,,15.000000002309918,trial number 17.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:47.058823
+
+,15.000000002309918,,15.000000002309918,trial number 18.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:50.0
+
+,15.000000003144095,,15.000000003144095,trial number 19.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:52.63158
+
+,15.000000003144095,,15.000000003144095,trial number 20.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:55.0
+
+,15.000000003144095,,15.000000003144095,trial number 21.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:52.38095
+
+,15.000000004106596,,15.000000004106596,trial number 22.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:50.0
+
+,15.000000004106596,,15.000000004106596,trial number 23.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:52.173912
+
+,15.000000004106596,,15.000000004106596,trial number 24.0
+sent data 0
+error has occured in the bit
+recieved data:1
+rate error:54.166668
+
+,15.000000005197393,,15.000000005197393,trial number 25.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:56.0
+
+,15.000000005197393,,15.000000005197393,trial number 26.0
+sent data 1
+bit is not corrupted(no errors)
+recieved data:1
+rate error:53.846153
+
+,15.000000005197393,,15.000000005197393,trial number 27.0
+sent data 1
+error has occured in the bit
+recieved data:0
+rate error:55.555557
+

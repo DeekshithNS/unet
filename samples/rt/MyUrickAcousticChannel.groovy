@@ -21,6 +21,9 @@ public class MyUrickAcousticModel extends org.arl.unet.sim.channels.UrickAcousti
     super(parent)
   }
 
+  File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/urick.txt")
+
+
   protected Logger log = Logger.getLogger(getClass().getName());
 
   @Override
@@ -28,6 +31,14 @@ public class MyUrickAcousticModel extends org.arl.unet.sim.channels.UrickAcousti
     double v = super.getRxPower(rx);
 
     println sprintf ("power = "+v);
+
+
+    double vvv=(Math.log(v)*10)/(Math.log(10));
+        double vava=175-vvv;        
+        println("after log "+vvv+"loss =  "+vava+"    ");
+
+
+          fl.append(","+vava+",")
 
     log.info("getRxPower returned "+v);
     return v;
