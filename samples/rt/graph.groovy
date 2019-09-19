@@ -22,11 +22,12 @@ import java.util.Random;
 import java.lang.Math.*
 
 channel = [
-  model: SurfaceDuctLossChannel,
+  //model: SurfaceDuctLossChannel,
  //model: SurfaceReflectionLossChannel,
   //model: AbsorptionSpreadLossChannel,
   //model: BottomBounceLossChannel,
   //model: AmbientLossChannel,
+  model:MyUrickAcousticChannel,
   bandwidth:            5020.Hz,
   spreading:            1.5,
   temperature:          15.C,
@@ -42,7 +43,7 @@ Simulation bit rate error for 10 bit input
 '''
 Random rand = new Random();
 
-File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/sd.txt")
+File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/urick.txt")
 
 float error = 0;
 float count = 0;
@@ -57,7 +58,7 @@ for(int f=1;f<=10;f+=1)
   simulate 8.seconds, {
       def n = []
       n << node('1', address: 1, location: [0,0,0])
-      n << node('2', address: 2, location: [10,0,0])
+      n << node('2', address: 2, location: [100,0,0])
       //n << node('2', address: 2, location: [20,0,0])
       n.eachWithIndex { n2, i ->
         n2.startup = {

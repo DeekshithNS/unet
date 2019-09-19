@@ -42,7 +42,7 @@ File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/al.txt")
 
        println sprintf("power ="+v+"     "+rx.getSourceLevel()+"    "+aTL);
        
-      
+        
         return v;
 
       }

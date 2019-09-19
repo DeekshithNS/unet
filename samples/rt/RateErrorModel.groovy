@@ -23,8 +23,8 @@ import java.lang.Math.*;
 
 channel = [
   //model: AbsorptionSpreadLossChannel,
-  //model:MyUrickAcousticChannel,
-  model: SurfaceDuctLossChannel,
+  model:MyUrickAcousticChannel,
+  //model: SurfaceDuctLossChannel,
   //model: SurfaceReflectionLossChannel,
   //model: Mchannel,
   bandwidth:            4096.Hz,
@@ -45,7 +45,8 @@ println '''
 Simulation bit rate error for 10 bit input
 '''
 Random rand = new Random();
-File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/fl.txt")
+File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/urick.txt")
+
 float error = 0;
 float count = 0;
 float rateErrorpercentage = 0;

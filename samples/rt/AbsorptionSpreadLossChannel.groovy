@@ -39,6 +39,12 @@ File fl = new File("/home/deekshith/unetsim-1.3/samples/rt/ab.txt")
        //log.info("  power = "+TL+" range "+r+" ");
 
        println("power ="+v+"     "+rx.getSourceLevel()+"    "+TL);
+
+
+
+       double vvv=(Math.log(v)*10)/(Math.log(10));
+        
+        println("after log "+vvv+" ");
        return v;
       }
 

@@ -7,6 +7,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 import org.arl.fjage.*
+<<<<<<< HEAD
+=======
 import org.arl.unet.*
 import org.arl.unet.phy.*
 import org.arl.unet.sim.*
@@ -17,6 +19,7 @@ import static org.arl.unet.phy.Physical.*
 
 
 
+>>>>>>> cb0d592637cd63b0ac86b1577306408e93c470ba
 
 ///////////////////////////////////////////////////////////////////////////////
 // display documentation
@@ -43,6 +46,16 @@ Press ^D to exit
 ///////////////////////////////////////////////////////////////////////////////
 // simulator configuration
 
+<<<<<<< HEAD
+platform = RealTimePlatform   // use real-time mode
+
+// run the simulation forever
+simulate {
+  node '1', remote: 1101, address: 1, location: [ 0.km, 0.km, -15.m], shell: true, stack: "$home/etc/initrc-stack"
+  node '2', remote: 1102, address: 2, location: [ 1.km, 0.km, -15.m], shell: 5102, stack: "$home/etc/initrc-stack"
+  node '3', remote: 1103, address: 3, location: [-1.km, 0.km, -15.m], shell: 5103, stack: "$home/etc/initrc-stack"
+}
+=======
 trace.warmup = 2.minutes             // collect statistics after a while
 
 
@@ -81,3 +94,4 @@ float loss = trace.txCount ? 100*trace.dropCount/trace.txCount : 0
  println sprintf('%6d\t\t%6d\t\t%5.1f\t\t%7.3f\t\t%7.3f',[trace.txCount, trace.rxCount, loss, trace.offeredLoad, trace.throughput])
 
 
+>>>>>>> cb0d592637cd63b0ac86b1577306408e93c470ba
